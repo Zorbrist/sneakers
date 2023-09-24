@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:jdflutter/views/product_list_page.dart';
 import 'package:jdflutter/views/secondpage.dart';
-import 'package:jdflutter/views/users_list_page.dart';
 import 'package:jdflutter/views/widgets/shoppingcart.dart';
 
 class NavigationDrawer extends StatelessWidget {
@@ -62,7 +61,7 @@ class NavigationDrawer extends StatelessWidget {
               leading: const Icon(Icons.accessible_forward),
               title: const Text("Users"),
               onTap: () {
-                Navigator.of(context).push(MaterialPageRoute(builder: (_) => UsersListPage()));
+                // Navigator.of(context).push(MaterialPageRoute(builder: (_) => UsersListPage()));
               },
             )
           ],
